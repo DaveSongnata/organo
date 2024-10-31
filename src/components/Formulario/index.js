@@ -21,7 +21,13 @@ const Formulario = (props) => {
                 time
             });
         
-            console.log('Dados enviados:', { nome, cargo, imagem, time });};
+            console.log('Dados enviados:', { nome, cargo, imagem, time });
+            
+            setNome('')
+            setCargo('')
+            setImagem('')
+            setTime('')
+        };
 
 
     return (
